@@ -1,0 +1,1 @@
+INSERT * FROM `msg` ORDER BY DESC;

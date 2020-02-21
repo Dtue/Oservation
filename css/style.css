@@ -1,0 +1,105 @@
+/*全局*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*标题栏*/
+nav{
+	background-color: #3db0f7;
+	width: 100%;
+	padding: 10px 0px 10px 10px;
+}
+nav span{
+	margin-left: 5px;
+}
+nav span a{
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Nunito', sans-serif;
+	margin-right: 10px;
+	font-size: 20px;
+}
+nav span a:nth-child(1){
+	font-size: 40px;
+	margin-right: 40px;
+}
+nav span a sup{
+	font-size: 5px;
+}
+nav span a:hover{
+	color: #74b9ff;
+}
+.timg{
+	margin-bottom: 0;
+}
+
+/*产品栏*/
+.prdTitle{
+	display: block;
+	height: 50px;
+}
+#prdh2{
+	display: block;
+	height: 50px;
+	margin-left: 30px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	background-color: #3db0f7;
+	font-family: 'Nunito', sans-serif;
+}
+#list-to-show-products{
+	padding: 7px 30px;
+}
+.prd ul{
+	margin-top: 3px;
+	overflow: hidden;
+	list-style: none;
+}
+.prd ul li{
+	float: left;
+	margin-right: 30px;
+}
+.prdRow{
+	overflow: hidden;
+}
+.prdImg,.prdInt{
+	float: left;
+}
+.prdImg{
+	width: 120px;
+	height: 120px;
+}
+.knowButton{
+	height: 30px;
+	width: 120px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	background-color: #3db0f7;
+}
+.knowButton:hover{
+	background-color: #fff;
+	border: #3db0f7 3px solid;
+	color: #3db0f7;
+}
+.prdRow,.prdInt{
+	display: block;
+	height: 120px;
+	width: 120px;
+	margin-bottom: 10px;
+}
+.prdName{
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: #3db0f7;
+}
+.prdContent{
+	margin: 10px unset;
+	font-size: 5px;
+	font-family: 'Nunito', sans-serif;
+	color:  #74b9ff;
+}
